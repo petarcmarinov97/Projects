@@ -1,9 +1,9 @@
-import '../../../Styles/HomePage/MainSections/BottomSection/BottomSection.css';
+import '../../../Styles/HomePage/MainSections/PopularSection/PopularSection.css';
 import React from "react";
-import MovieCard from '../MainSections/MovieCard';
+import MovieCard from './MovieCard';
 import { useEffect, useState } from "react";
 
-const BottomSection = () => {
+const PopularSection = () => {
 
     const [data, setData] = useState([]);
 
@@ -46,4 +46,4 @@ const BottomSection = () => {
     );
 }
 
-export default BottomSection;
+export default PopularSection;

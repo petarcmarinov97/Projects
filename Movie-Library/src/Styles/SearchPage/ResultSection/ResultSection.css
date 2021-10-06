@@ -1,12 +1,13 @@
 section.ResultSection {
-  width: 70%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-top: none;
   padding-top: 0;
   padding-bottom: 0;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 section.ResultSection div {
@@ -18,9 +19,6 @@ section.ResultSection div.results {
   max-width: 100%;
   -ms-flex-line-pack: center;
       align-content: center;
-  max-height: 500px;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 section.ResultSection div.results div.pageNumber {

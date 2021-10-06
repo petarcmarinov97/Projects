@@ -8,7 +8,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
   background-color: #032541;
   height: 70px;
   width: 100%;
@@ -51,6 +50,10 @@ header div.sub_media {
   position: relative;
   width: 100%;
   padding: 0 10px;
+}
+
+header div.nav_center {
+  margin-top: 25px;
 }
 
 header div.nav_wrapperLeft {

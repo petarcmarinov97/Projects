@@ -1,5 +1,6 @@
 import React from "react";
-import "../Styles/Navbar/Navbar.css";
+import "../Styles/NavBar/Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -7,30 +8,29 @@ const Navbar = () => {
             <div className="content">
             <div className="sub_media">
                 <div className="nav_wrapperLeft">
-                    <a className="logo" href="/">
+                    <Link className="logo" to="/">
                         <img src="https://i.ibb.co/BsWxtKs/logo-small.png" alt="movies" />
-                    </a>
+                    </Link>
                     <ul className="dropdown_menu">
                         <div className="dropdown">
                                 <button className="dropbtn">Categories</button>
                                 <div className="dropdown-content">
-                                    <a href="/movies">Movies</a>
-                                    <a href="/shows">TV Shows</a>
+                                    <Link to="/movies">Movies</Link>
+                                    <Link to="/tvshows">Tv Shows</Link>
                                 </div>
                             </div>
                     </ul>
                 </div>
-            <div className="nav_wrapperRight">
+                <div className="nav_wrapperRight">
                     <ul className="primary">
                         <li>
-                            <a className="favourites" href="/favourites">
-                                Favourites
-                            </a>
+                           <Link to="/search">Search</Link>
                         </li>
                         <li>
-                            <a href="/watchlist">
-                                Watchlist
-                            </a>
+                        <Link to="/favourites">Favourites</Link>
+                        </li>
+                        <li>
+                        <Link to="/Watchlist">Watchlist</Link>
                         </li>
                     </ul>
                 </div>

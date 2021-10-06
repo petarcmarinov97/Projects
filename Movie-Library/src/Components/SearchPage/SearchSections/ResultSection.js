@@ -1,6 +1,6 @@
-import '../../../Styles/HomePage/MainSections/ResultSection/ResultSection.css';
+import '../../../Styles/SearchPage/ResultSection/ResultSection.css';
 import React from "react";
-import MovieCard from './MovieCard'
+import ResultCard from './ResultCard';
 
 const ResultSection = ({results}) => {
     
@@ -12,7 +12,7 @@ const ResultSection = ({results}) => {
                 {results.map(movie=>
                 (movie.poster_path && (movie.title || movie.name) && (movie.release_date || movie.first_air_date))&&
                 (
-                    <MovieCard key={movie.id} movie={movie} />
+                        <ResultCard key={movie.id} movie={movie} />
                 ))}
                 </div>
            )}

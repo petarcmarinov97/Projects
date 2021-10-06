@@ -1,0 +1,115 @@
+//Search Section//
+section.inner_contentOne {
+    background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/7VrRna8S3x6xbijooeBmxqvHXiu.jpg");
+    min-height: 300px;
+    height: calc(100vh / 1.5);
+    max-height: 350px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    width: 70%;
+    margin-bottom: 30px;
+
+    div.media_discover {
+        height: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+
+        div.column_wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            align-content: flex-start;
+            margin-block-start: 60px;
+            padding-top: 40px;
+            padding-bottom: 0px;
+
+            div.content_wrapper {
+                width: 100%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: end;
+                -ms-flex-align: end;
+                align-items: flex-end;
+                -ms-flex-line-pack: start;
+                align-content: flex-start;
+                padding-left: 25px;
+                padding-top: 25px;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+
+                div.title {
+                    width: 100%;
+                    margin-bottom: 50px;
+
+                    h2 {
+                        font-size: 3em;
+                        font-weight: 700;
+                        line-height: 1;
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    h3 {
+                        display: block;
+                        font-size: 2em;
+                        font-weight: 600;
+                        margin: 0;
+                        padding: 0px;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                    }
+                }
+
+                div.search {
+                    width: 100%;
+
+                    input.search {
+                        line-height: normal;
+                        margin: 0;
+                    }
+
+                    input[type=text].search {
+                        width: 540px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 1.1em;
+                        color: rgba(0, 0, 0, 0.5);
+                        border: none;
+                        border-radius: 30px;
+                        padding: 10px 20px;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    section div {
+        display: block;
+    }
+}
+
+//Search Section//
+
+//--------------------//

@@ -1,0 +1,39 @@
+section.ResultSection {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 35px;
+}
+
+section.ResultSection div {
+  display: block;
+}
+
+section.ResultSection div.results {
+  margin-top: 0px;
+  max-width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+section.ResultSection div.results div.pageNumber {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-margin-start: 50px;
+          margin-inline-start: 50px;
+}
+/*# sourceMappingURL=ResultSection.css.map */

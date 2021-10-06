@@ -1,0 +1,29 @@
+section.ResultSection {
+    width: 70%;
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 35px;
+
+    div {
+        display: block;
+    }
+
+    div.results {
+        margin-top: 0px;
+        max-width: 100%;
+        align-content: center;
+        max-height: 500px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        div.pageNumber {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin-inline-start: 50px;
+        }
+    }
+}

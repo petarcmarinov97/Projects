@@ -1,14 +1,14 @@
 import "../../Styles/HomePage/Main/Main.css";
 import React from "react";
-import PopularSection from "./MainSections/PopularSection";
-import TopRatedSection from "./MainSections/TopRatedSection";
+import TopRatedMovies from "./MainSections/TopRatedMovies";
+import PopularTvShows from "./MainSections/PopularTvShows";
 
 const Main = () => {
 
     return (
         <main> 
-            <PopularSection/>
-            <TopRatedSection />
+            <TopRatedMovies />
+            <PopularTvShows />
         </main>
         
     );

@@ -22,7 +22,7 @@ header {
         outline: none;
         border: 0;
         aspect-ratio: auto 154 / 20;
-        height: 60px;
+        height: 70px;
     }
 
     div.content {
@@ -65,7 +65,8 @@ header {
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
-        list-style-type: none;    
+        list-style-type: none;
+        padding-inline-start: 10px;  
     }
     
     li a{

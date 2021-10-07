@@ -27,7 +27,7 @@ header img {
   outline: none;
   border: 0;
   aspect-ratio: auto 154 / 20;
-  height: 60px;
+  height: 70px;
 }
 
 header div.content {
@@ -98,6 +98,8 @@ header ul {
       -ms-flex-align: center;
           align-items: center;
   list-style-type: none;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
 }
 
 header li a {

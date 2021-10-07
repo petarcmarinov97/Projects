@@ -9,14 +9,14 @@ const Navbar = () => {
             <div className="sub_media">
                 <div className="nav_wrapperLeft">
                     <Link className="logo" to="/">
-                        <img src="https://i.ibb.co/BsWxtKs/logo-small.png" alt="movies" />
+                        <img src="https://i.ibb.co/1qJjFhB/11300fddc62b471ab8b882206559b119-2.png"  alt="movies" />
                     </Link>
                     <ul className="dropdown_menu">
                         <div className="dropdown">
                                 <button className="dropbtn">Categories</button>
                                 <div className="dropdown-content">
                                     <Link to="/movies">Movies</Link>
-                                    <Link to="/tvshows">Tv Shows</Link>
+                                    <Link to="/tvshows">TV Shows</Link>
                                 </div>
                             </div>
                     </ul>
@@ -30,7 +30,16 @@ const Navbar = () => {
                         <Link to="/favourites">Favourites</Link>
                         </li>
                         <li>
-                        <Link to="/Watchlist">Watchlist</Link>
+                        <Link to="/watchlist">Watchlist</Link>
+                        </li>
+                        <li>
+                        <Link to="/login">Login</Link>
+                        </li>
+                        <li>
+                        <Link to="/register">Register</Link>
+                        </li>
+                        <li>
+                        <Link to="/logout">Logout</Link>
                         </li>
                     </ul>
                 </div>

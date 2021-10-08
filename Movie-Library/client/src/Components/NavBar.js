@@ -31,7 +31,7 @@ const Navbar = ({ username, isAuthenticated }) => {
                         {isAuthenticated
                         ? <ul>
                      <li>
-                            <Link to="/favourites">Favourites</Link>
+                            <Link to="/favorites">Favourites</Link>
                         </li>
                         <li>
                             <Link to="/watchlist">Watchlist</Link>

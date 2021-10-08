@@ -19,22 +19,26 @@ function App() {
     auth.onAuthStateChanged(setUser);
   },[]);
 
+  const authInfo = {
+    isAuthenticated: Boolean(user),
+    username: user?.email,
+  };
+
   return (
     <div className="container">
-      <Navbar email={user?.email}  isAuthenticated={Boolean(user)}/>  
+      <Navbar {...authInfo}/>  
       <Switch>
-        <Route exact path="/" component={Main} />
-        <Route path="/search" component={Search} />
-        <Route exact path="/movie/details/:id" component={MoviePage} />
-        <Route exact path="/tv/details/:id" component={TvPage} />
-        <Route exact path="/register" component={Register} />
-        <Route exact path="/login" component={Login} />
+        <Route exact path="/" render={props => <Main {...props} {...authInfo} />} />
+        <Route path="/search" render={props => <Search {...props} {...authInfo}/>} />
+        <Route exact path="/movie/details/:id" render={props => <MoviePage {...props} {...authInfo}/>} />
+        <Route exact path="/tv/details/:id" render={props => <TvPage {...props} {...authInfo}/>} />
+        <Route exact path="/register" render={props => <Register {...props} {...authInfo}/>} />
+        <Route exact path="/login" render={props => <Login {...props} {...authInfo}/>} />
         <Route exact path="/logout" render={props => {
           auth.signOut()
           return <Redirect to="/" />
         }} />
       </Switch>
-      <h5>{user?.email}</h5>
     </div>
       
   );

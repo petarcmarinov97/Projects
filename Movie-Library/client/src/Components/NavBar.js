@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/NavBar/Navbar.css";
 import { Link } from "react-router-dom";
 
-const Navbar = ({ email, isAuthenticated }) => {
+const Navbar = ({ username, isAuthenticated }) => {
     return (
         <header>
             <div className="content">
@@ -24,26 +24,34 @@ const Navbar = ({ email, isAuthenticated }) => {
                 <div className="nav_wrapperRight">
                     <ul className="primary">
                         {isAuthenticated
-                        ? <li className="greeting" >Welcome, {email}</li>
+                        ? <li className="greeting" >Welcome, {username}</li>
                         : <li className="greeting" >Welcome, Guest</li>}
-                        <li>
-                           <Link to="/search">Search</Link>
-                        </li>
-                        <li>
+                        
+                        
+                        {isAuthenticated
+                        ? <ul>
+                     <li>
                             <Link to="/favourites">Favourites</Link>
                         </li>
                         <li>
                             <Link to="/watchlist">Watchlist</Link>
                         </li>
                         <li>
-                            <Link to="/login">Login</Link>
-                        </li>
-                        <li>
-                            <Link to="/register">Register</Link>
-                        </li>
-                        <li>
                             <Link to="/logout">Logout</Link>
                         </li>
+                     </ul>
+                        : <ul>
+                            <li>
+                        <Link to="/search">Search</Link>
+                     </li>
+                            <li>
+                        <Link to="/login">Login</Link>
+                    </li>
+                    <li>
+                        <Link to="/register">Register</Link>
+                    </li></ul>
+                        }
+                        
                     </ul>
                 </div>
             </div>

@@ -1,18 +1,33 @@
 import React from "react";
 import '../../Styles/LoginPage/Login.css';
+import { auth } from '../../utils/firebase';
 
 
-const Login = () => {
+
+const Login = ({history}) => {
+
+    const onLoginSubmitHandler = (e) =>{
+        e.preventDefault();
+    
+        const email=e.target.email.value;
+        const password=e.target.password.value
+    
+        auth.signInWithEmailAndPassword(email, password)
+            .then((userCredential) => {
+               history.push('/');
+            })
+    }
+
     return (
-    <form action="">
+    <form onSubmit={onLoginSubmitHandler}>
         <div className="containerLogin">
         <h1>Login</h1>
         <p>Please fill in this form to create an account.</p>
         <hr/>
-        <label for="email"><b>Email</b></label>
+        <label htmlFor="email">Email</label>
         <input type="text" placeholder="Enter Email" name="email" id="email" required />
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required/>
+        <label htmlFor="password">Password</label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required/>
         <hr />
         <button type="submit" className="loginbtn">Login</button>
         </div>

@@ -2,6 +2,12 @@
 $blackColor: rgb(24,24,24);
 
 header {
+
+    li.greeting{
+        color:white;
+        padding-inline-end: 15px;
+    }
+
     position: fixed;
     display: flex;
     justify-content: center;

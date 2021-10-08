@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/NavBar/Navbar.css";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ email, isAuthenticated }) => {
     return (
         <header>
             <div className="content">
@@ -23,6 +23,9 @@ const Navbar = () => {
                 </div>
                 <div className="nav_wrapperRight">
                     <ul className="primary">
+                        {isAuthenticated
+                        ? <li className="greeting" >Welcome, {email}</li>
+                        : <li className="greeting" >Welcome, Guest</li>}
                         <li>
                            <Link to="/search">Search</Link>
                         </li>
@@ -33,13 +36,13 @@ const Navbar = () => {
                             <Link to="/watchlist">Watchlist</Link>
                         </li>
                         <li>
-                            <Link to="/auth/login">Login</Link>
+                            <Link to="/login">Login</Link>
                         </li>
                         <li>
-                            <Link to="/auth/register">Register</Link>
+                            <Link to="/register">Register</Link>
                         </li>
                         <li>
-                            <Link to="/auth/logout">Logout</Link>
+                            <Link to="/logout">Logout</Link>
                         </li>
                     </ul>
                 </div>

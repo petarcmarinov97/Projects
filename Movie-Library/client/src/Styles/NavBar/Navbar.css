@@ -17,6 +17,12 @@ header {
   transition: top 0.2s linear;
 }
 
+header li.greeting {
+  color: white;
+  -webkit-padding-end: 15px;
+          padding-inline-end: 15px;
+}
+
 header a.logo {
   display: block;
   margin-right: 0px;

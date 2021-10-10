@@ -1,0 +1,49 @@
+//Search Section//
+section.searchSection {
+    width: 100%;
+
+    div.title {
+        text-align: center;
+        h2 {
+            font-size: 3em;
+            font-weight: 700;
+            line-height: 0;
+        }
+
+        h3 {
+            font-size: 2em;
+            font-weight: 600;
+            margin: 0;
+        }
+
+    }
+
+    div.search {
+        width: 100%;
+        text-align: center;
+        margin-block-start: 15px;
+
+        input.search {
+            line-height: normal;
+            margin: 0;
+        }
+
+        input[type=text].search {
+            width: 540px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 1.1em;
+            color: rgba(0, 0, 0, 0.5);
+            background-color: #dfdfdf;
+            border: none;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+    }
+}
+
+
+
+//Search Section//
+
+//--------------------//

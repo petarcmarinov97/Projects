@@ -1,0 +1,430 @@
+div {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.header_large_border_second {
+  -webkit-padding-before: 50px;
+          padding-block-start: 50px;
+  border-bottom: 1px solid #0e1f21;
+  background-position: right -200px top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background: -webkit-gradient(linear, left top, right bottom, from(#0e1f21), to(rgba(14, 31, 33, 0.84)));
+  background: linear-gradient(to bottom right, #0e1f21, rgba(14, 31, 33, 0.84));
+  color: #000;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s {
+  background-image: linear-gradient(to right, #0e1f21 150px, rgba(14, 31, 33, 0.84) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column {
+  max-width: 1400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.poster_wrapper {
+  height: auto;
+  color: #fff;
+  border-width: 0px;
+  min-width: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.poster_wrapper div.poster {
+  color: #fff;
+  display: block;
+  min-width: 300px;
+  width: 300px;
+  height: 450px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.poster_wrapper div.poster div.image_content {
+  color: #fff;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.poster_wrapper div.poster div.image_content img.poster_lazy_load {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border-width: 0px;
+  outline: none;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 40px;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title h2 {
+  -webkit-margin-before: 0.83em;
+          margin-block-start: 0.83em;
+  -webkit-margin-after: 0.83em;
+          margin-block-end: 0.83em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 2.2rem;
+  display: block;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title h2 a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  background: transparent;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title h2 span.release_date {
+  opacity: 0.8;
+  font-weight: 400;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title div.facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title div.facts span.release {
+  color: #fff;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title div.facts span.genres {
+  padding-left: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title div.facts span.genres a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  background: transparent;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.title div.facts span.runtime {
+  padding-left: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster ul.auto_actions {
+  color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style-type: none;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 40px;
+          padding-inline-start: 40px;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster ul.auto_actions li.tooltip_use {
+  margin-right: 20px;
+  color: #fff;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster ul.auto_actions li.tooltip_use a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #032541;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster ul.auto_actions li.tooltip_use a span {
+  color: #fff;
+  background-image: url("https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-159-thumbnails-list-white-c260ea972eebf812289fd3c41d0d2c1dff33ecbcd62be13fba8eeaf9de173789.svg");
+  position: relative;
+  top: 0;
+  left: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 1em;
+  min-height: 1em;
+  width: 1em;
+  height: 1em;
+  line-height: inherit;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster ul.auto_actions li.tooltip_use_second {
+  padding: 3px 0;
+  margin-right: 0;
+  color: #fff;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster ul.auto_actions li.tooltip_use_second a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #032541;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster ul.auto_actions li.tooltip_use_second a span {
+  color: #fff;
+  background-image: url("https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-13-heart-white-28d2cc2d6418c5047efcfd2438bfc5d109192671263c270993c05f130cc4584e.svg");
+  position: relative;
+  top: 0;
+  left: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 1em;
+  min-height: 1em;
+  width: 1em;
+  height: 1em;
+  line-height: inherit;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: normal;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.header_info {
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.header_info h3.tagline {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 8px 0;
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 1em;
+  font-weight: 300;
+  font-style: italic;
+  opacity: 0.6;
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.header_info h3 {
+  -webkit-margin-before: 15px;
+          margin-block-start: 15px;
+  width: 100%;
+  margin: 0 0 8px 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3em;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.header_info div.overiview {
+  color: #fff;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.header_large_border_second div.keyboard_s div.single_column section.images_inner div.header_poster_wrapper section.header_poster div.header_info div.overiview p {
+  color: #fff;
+  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1em;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+/*# sourceMappingURL=DetailsPage.css.map */
